@@ -13,24 +13,6 @@ privately; nothing here is source code.
 > release note here and will require a one-time reinstall (your data is
 > preserved).
 
-## Install (Windows 10 1903 or newer, x64)
-
-**Step 1 - trust the signing certificate (one time per machine).**
-Download `Spunky-development-signing.cer` from the
-[latest release](../../releases/latest), then run PowerShell **as
-administrator** in your Downloads folder:
-
-```powershell
-certutil -addstore TrustedPeople Spunky-development-signing.cer
-```
-
-**Step 2 - install the app.**
-Download `Spunky.appinstaller` from the
-[latest release](../../releases/latest) and open it. Windows shows the app
-and its version; click **Install**.
-
-Install the `.appinstaller` file rather than the `.msix` - that is what turns
-on automatic update checks.
 
 ## Updates
 
